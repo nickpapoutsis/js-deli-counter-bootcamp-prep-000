@@ -9,7 +9,7 @@ function nowServing() {
   if (katzDeli[0]) {
     return katzDeli.unshift();
   } else {
-    return "There is nobody wating to be served!"
+    return "There is nobody waiting to be served!"
   }
 }
 

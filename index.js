@@ -13,7 +13,7 @@ function nowServing() {
   }
 }
 
-function currentLine() {
+function currentLine(katzDeli) {
   if (katzDeli.length > 0) {
     var temp = "";
     for (let i = 0; i < katzDeli.length; i++) {

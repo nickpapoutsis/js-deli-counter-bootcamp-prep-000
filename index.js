@@ -1,11 +1,8 @@
 let katzDeli = [];
 
 function takeANumber(katzDeliLine, name) {
-  for (var i = 0; i < katzDeliLine.length; i++) {
-    if (katzDeliLine[i] = name) {
-      return i + 1;
-    }
-  }
+  katzDeliLine[katzDeliLine.length] = name
+  return `${name} you are No.${katzDeliLine.length}`
 }
 
 function nowServing() {
